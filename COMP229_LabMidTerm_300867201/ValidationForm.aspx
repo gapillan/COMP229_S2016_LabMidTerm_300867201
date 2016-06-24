@@ -33,7 +33,7 @@
     <form id="form1" runat="server">
     <div>
         <table style="border: 1pt solid #6666FF; width: 60%; height: 424px; font-family: Verdana;
-            border-collapse: collapse; background-color: #ffffff;" align="center">
+            border-collapse: collapse; background-color: #8ad0ff;" align="center">
             <tr>
                 <td align="center" colspan="3" class="style9">
                     <asp:Label ID="lblHeader" runat="server" Text="Registration Form" Font-Bold="True"></asp:Label>
@@ -108,9 +108,7 @@
             </tr>
             <tr>
             <td align="center" class="style12">
-                &nbsp;
-                <asp:Label ID="lblMsg" runat="server" ForeColor="#CC3300"></asp:Label>
-            </td>
+                &nbsp;</td>
             <td class="style12">
                 <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />&nbsp;
                 <asp:Button ID="btnClear" runat="server" CausesValidation="False" OnClick="btnClear_Click"

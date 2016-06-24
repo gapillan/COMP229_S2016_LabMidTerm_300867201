@@ -206,6 +206,8 @@
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
     <Content Include="ValidationForm.aspx" />
+    <Content Include="ValidationForm.css" />
+    <Content Include="ValidationForm.js" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -386,6 +388,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>

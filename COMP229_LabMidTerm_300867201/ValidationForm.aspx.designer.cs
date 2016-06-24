@@ -184,15 +184,6 @@ namespace COMP229_LabMidTerm_300867201 {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RxvAge;
         
         /// <summary>
-        /// lblMsg control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMsg;
-        
-        /// <summary>
         /// btnSubmit control.
         /// </summary>
         /// <remarks>
