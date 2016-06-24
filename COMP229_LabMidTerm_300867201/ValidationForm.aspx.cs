@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -21,7 +24,7 @@ namespace COMP229_LabMidTerm_300867201
             try
             {
                 cmd.Connection = con;
-                cmd.CommandType = CommandEventArgs.Empty; 
+                cmd.CommandType = CommandType.Text; 
                 cmd.CommandText = "INSERT INTO UserDetails values(@Name,@Email,@Password,@Mobile)";
                 cmd.Parameters.AddWithValue("@Name", txtName.Text.ToString());
                 cmd.Parameters.AddWithValue("@Email", txtEmail.Text.ToString());
@@ -30,7 +33,7 @@ namespace COMP229_LabMidTerm_300867201
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
-                lblMsg.Text = "Thank You";
+                lblMsg.Text = "Thank You for registering with us";
                 
 
             }
